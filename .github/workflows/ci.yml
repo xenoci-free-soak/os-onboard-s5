@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: xenoci-macos-latest
     steps:
       - uses: actions/checkout@v4
       - run: sw_vers && echo hello-from-os-onboard
